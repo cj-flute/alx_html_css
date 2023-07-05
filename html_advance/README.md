@@ -17,17 +17,29 @@ For this task, please write an amazing README.md
         - Directory: html_advanced
         - File: README.md
 
-2. Task 1 - Header
-   Let's start by the top: the header
-   Here the wireframe of it:
+2.  Task 1 - Header
+    Let's start by the top: the header
+    Here the wireframe of it:
 
-   - Create the HTML skeleton (html, head, body, etc.)
-   - In the body, add an header tag
-   - Inside this header:
-     - Add a link element with a image inside
-     - Add a block of 3 link elements
+    - Create the HTML skeleton (html, head, body, etc.)
+    - In the body, add an header tag
+    - Inside this header:
+      - Add a link element with a image inside
+      - Add a block of 3 link elements
 
-   Repo: - GitHub repository: alx_html_css - Directory: html_advanced - File: README.md
+    Repo:
 
-3. Task 2 - Banner
-   Now, the banner under the hearder:
+        - GitHub repository: alx_html_css
+        - Directory: html_advanced
+        - File: README.md
+
+3.  Task 2 - Banner
+    Now, the banner under the hearder:
+    Under the header, add a main element with inside a selection element.
+    In this section element, add:
+    - A block with inside:
+      - An heading tag (don't forget to use the correct heading value)
+      - A text element
+      - A button tag
+    - Another block with inside:
+      - Another heading tag (same, be careful about which one you are using)

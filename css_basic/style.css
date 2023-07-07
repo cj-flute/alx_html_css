@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+header, footer{
+    background-color: rgba(111, 55, 55, 0.501);
+    color: white;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: rgb(244, 249, 244);
+}
+header div div{
+    margin: 10px;
+}

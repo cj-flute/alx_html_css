@@ -557,18 +557,17 @@ ul.row {
     padding: 10rem 40rem 2rem 0;
 }
 
-/* Section SERVICES ======================== */
+/* Section Latest news ============================= */
+.section-latest-news .row {
+    flex-direction: row-reverse;
+}
+
+/* Section SERVICES ============================= */
 .section-services .row{
     flex-wrap: wrap;
 }
 
 /*** 4. CARD ***/
-
-/* Section Latest news ================== */
-.section-latest-news .row {
-    flex-direction: row-reverse;
-}
-
 /* Card (all styles)
       ============================= */
 

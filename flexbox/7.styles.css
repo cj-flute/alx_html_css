@@ -433,9 +433,7 @@ ul.row {
     width: 100%;
 }
 
-/* Header
-      ============================= */
-
+/* Header ============================= */
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -449,9 +447,7 @@ ul.row {
     background: transparent;
 }
 
-/* Footer
-      ============================= */
-
+/* Footer ============================= */
 .footer {
     --nav-item-font-weight: normal;
     --nav-item-font-size: var(--font-size-small);
@@ -482,9 +478,7 @@ ul.row {
 
 /*** 3. SECTION ***/
 
-/* Section (all styles)
-      ============================= */
-
+/* Section (all styles) ============================= */
 .section {
     padding: var(--section-padding);
 }
@@ -519,9 +513,7 @@ ul.row {
     text-align: var(--section-footer-align);
 }
 
-/* Section theming
-      ============================= */
-
+/* Section theming ============================= */
 [data-section-theme="dark"] {
     --button-color: var(--color-white);
     --text-color: var(--color-white);
@@ -529,9 +521,7 @@ ul.row {
     background-color: #010101;
 }
 
-/* Section HERO
-      ============================= */
-
+/* Section HERO ============================= */
 .section-hero {
     background-position: 75% 0;
     background-repeat: no-repeat;
@@ -559,16 +549,12 @@ ul.row {
     flex-direction: row-reverse;
 }
 
-/* Card (all styles)
-      ============================= */
-
+/* Card (all styles) ============================= */
 .card-category {
     color: var(--color-primary);
 }
 
-/* Card WORK
-      ============================= */
-
+/* Card WORK ============================= */
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -631,9 +617,7 @@ ul.row {
     opacity: 1;
 }
 
-/* Card SERVICES
-      ============================= */
-
+/* Card SERVICES ============================= */
 .card-services .card-title {
     margin: 0;
 }
@@ -652,9 +636,7 @@ ul.row {
     transition-property: color, background-color;
 }
 
-/* Card TESTIMONIAL
-      ============================= */
-
+/* Card TESTIMONIAL ============================= */
 .card-testimonial {
     text-align: center;
 }

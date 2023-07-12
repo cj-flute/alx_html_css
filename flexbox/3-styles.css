@@ -563,7 +563,7 @@ ul.row {
 }
 
 /* Section SERVICES ============================= */
-.section-services .row{
+.section-services .row {
     flex-wrap: wrap;
 }
 
@@ -575,9 +575,7 @@ ul.row {
     color: var(--color-primary);
 }
 
-/* Card WORK
-      ============================= */
-
+/* Card WORK============================= */
 .card-work .card-outer {
     position: relative;
     overflow: hidden;

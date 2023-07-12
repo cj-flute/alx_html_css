@@ -269,8 +269,7 @@ template {
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
-/* Base
-      ============================= */
+/* Base ============================= */
 
 *,
 *:before,
@@ -335,9 +334,7 @@ a:active {
     transition-property: color, background-color;
 }
 
-/* Helpers
-      ============================= */
-
+/* Helpers ============================= */
 .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
     height: 1px;
@@ -349,18 +346,14 @@ a:active {
 
 /*** 2. LAYOUT ***/
 
-/* Layout
-      ============================= */
-
+/* Layout ============================= */
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Grid
-      ============================= */
-
+/* Grid ============================= */
 ul.row {
     margin: -1rem;
     padding: 0;
@@ -383,10 +376,7 @@ ul.row {
     width: calc((100% / 2) - 2rem);
 }
 
-/* Navbar
-      ============================= */
-
-
+/* Navbar ============================= */
 .nav {
     margin: 0;
     padding: 0;

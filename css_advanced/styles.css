@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#bg_img {
+    width: 100%;
+}
+header {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.head div {
+    width: 35%;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}

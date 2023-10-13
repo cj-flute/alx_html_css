@@ -1,11 +1,8 @@
-body {
+* {
     padding: 0;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#bg_img {
-    width: 100%;
+    box-sizing: border-box;
 }
 header {
     position: absolute;
@@ -31,10 +28,14 @@ ul {
     justify-content: space-between;
     font-size: larger;
 }
+#bg_img {
+    width: 100%;
+}
+.bg_img {
+    height: 1130px;
+}
 section{
     width: 100%;
-    height: 1215px;
-    border: 1px solid black;
 }
 
 #banner {
@@ -42,7 +43,7 @@ section{
     top: 10%;
     display: flex;
     justify-content: center;
-    /* border: 3px solid red; */
+    height: 100%;
 }
 .banner-inner-div {
     width: 80%;
@@ -72,9 +73,9 @@ section{
     margin: 0 30% 5% 30%;
 }
 .btn {
-    width: 25%;
+    width: 250px;
     height: 50px;
-    margin: 0 35% 0 37%;
+    margin: 0 35% 0 42%;
     border-radius: 25px;
     color: white;
     background-color: #C271FF;
@@ -97,6 +98,7 @@ section{
 .circles {
     display: flex;
     height: 70%;
+    margin-top: 10%;
 }
 
 .circles-box {
@@ -105,11 +107,10 @@ section{
 }
 
 #quote {
-    height: 500px;
+    height: 600px;
 }
 
 .quote-div {
-    border: 1px solid black;
     height: inherit;
     background-color: #C271FF;
     display: flex;
@@ -119,6 +120,7 @@ section{
 }
 
 .box {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -127,5 +129,140 @@ section{
 .quote-div .box div {
     padding: 15px;
     color: white;
-    border: 1px solid black;
+}
+#video {
+    padding-left: 300px;
+}
+.video-div {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2, .box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.box2 {
+    height: 85%;
+    gap: 40px;
+}
+.card {
+    width: 30%;
+    height: 100%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.inner-card {
+    padding: 20px;
+}
+.inner-card1 {
+    display: flex;
+    margin-top: 5%;
+}
+.inner-card2 {
+    display: flex;
+    justify-content: space-between;
+    color: #C271FF;
+    margin-top: 3%;
+}
+.inner-card1 h3 {
+    margin-top: 3%;
+    margin-left: 6%;
+    color: #C271FF;
+}
+.inner-card2 img {
+    width: 50%;
+}
+#membership {
+    background-color: #041830;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    gap: 100px;
+    text-align: center;
+}
+#membership #membership-in-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 5px;
+    width: 70%;
+    margin-left: 15%;
+}
+.membership-inner-div {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#faq {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+#faq h1 {
+    font-size: 100px;
+    font-weight: 50;
+    text-align: center;
+}
+.faq-div {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 80%;
+    padding: 40px;
+    gap: 70px;
+}
+.faq-inner-div {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.faq-inner-div div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.faint-div {
+    position: relative;
+}
+.faint {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff75;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: #041830;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+    padding: 100px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer-inner-div {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-top: 5%;
+    gap: 200px;
 }
